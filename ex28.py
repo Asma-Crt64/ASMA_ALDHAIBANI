@@ -1,13 +1,12 @@
-def Div(num1, num2):
+def function():
     result=0
     try:
-        result = num1/num2
-        print(f"The result is {result}")
+        num1=int(input("Enter your number: "))
+        print(f"The number you enterd is {num1}")
     except:
-        print("Divsion by zero!")
+        print("Invalid input!")
 
 
-num1=int(input("Enter first number: "))
-num2=int(input("Enter second number: "))
 
-Div(num1, num2)
+
+function()
